@@ -1,0 +1,951 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The song of Solomon rendered into English verse, by R.S.</title>
+            <author>R. S., fl. 1700.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 26 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B01627</idno>
+            <idno type="STC">Wing B2633AD</idno>
+            <idno type="STC">ESTC R170603</idno>
+            <idno type="EEBO-CITATION">53981606</idno>
+            <idno type="OCLC">ocm 53981606</idno>
+            <idno type="VID">180118</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B01627)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 180118)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2816:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The song of Solomon rendered into English verse, by R.S.</title>
+                  <author>R. S., fl. 1700.</author>
+               </titleStmt>
+               <extent>23 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>Edinburgh :</pubPlace>
+                  <date>Printed in the year, MDCC [1700]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Scottish arms on title page.</note>
+                  <note>Reproduction of the original in the National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Song of Solomon --  Paraphrases, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-01</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-03</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2011-03</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:180118:1"/>
+            <pb facs="tcp:180118:1"/>
+            <p>THE SONG OF SOLOMON Rendered into ENGLISH <hi>VERSE,</hi> By <hi>R. S.</hi>
+            </p>
+            <figure>
+               <q>NEMO ME IMPUNE LACESS<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>T</q>
+               <figDesc>blazon or coat of arms</figDesc>
+            </figure>
+            <p>
+               <hi>EDINBVRGH,</hi> Prined in the Year, MDCC.</p>
+         </div>
+      </front>
+      <body>
+         <div type="song">
+            <pb facs="tcp:180118:2"/>
+            <pb n="3" facs="tcp:180118:2"/>
+            <p>SOLOMON's <hi>SONG,</hi>
+            </p>
+            <div n="1" type="chapter">
+               <head>Chap. I.</head>
+               <lg n="1">
+                  <head>Verſe 1.</head>
+                  <l>THe Song of Songs</l>
+                  <l>Which is King <hi>Solomon</hi>'s.</l>
+               </lg>
+               <lg n="2">
+                  <head>2</head>
+                  <l>Let him with Kiſſes of his mouth me Kiſs,</l>
+                  <l>For that thy love than Wine farr better is.</l>
+               </lg>
+               <lg n="3">
+                  <head>3</head>
+                  <l>Becauſe the Savour and the fragrant Smell</l>
+                  <l>Of thy good Oyntments others that excell,</l>
+                  <l>Thy name is as an Ointment forth that's pour'd,</l>
+                  <l>Therefore the Virgins Love to thee afford.</l>
+               </lg>
+               <lg n="4">
+                  <head>4</head>
+                  <l>Draw me we will run after thee; the King,</l>
+                  <l>Hath brought me to his Chambers; we will ſing</l>
+                  <l>Be glad, and joy in Thee: They Love we will</l>
+                  <l>Mind more than Wine: The Upright love Thee ſtill.</l>
+               </lg>
+               <lg n="5">
+                  <pb n="4" facs="tcp:180118:3"/>
+                  <head>5</head>
+                  <l>Tho' I am black, yet I moſt comely am,</l>
+                  <l>(O ye the Daughters of <hi>Jeruſalem</hi>)</l>
+                  <l>Like to the Tents that <hi>Kedar</hi> Fields are on,</l>
+                  <l>Or like the Curtains of King <hi>Solomon.</hi>
+                  </l>
+               </lg>
+               <lg n="6">
+                  <head>6</head>
+                  <l>Look not upon the Blackneſs of my Hue,</l>
+                  <l>Becauſe the <hi>Sun</hi> doth very oft me view,</l>
+                  <l>My Mothers Children angry were and hot,</l>
+                  <l>To keep the Vineyards made it be my Lot,</l>
+                  <l>Yet my own Vineyard I have keeped not.</l>
+               </lg>
+               <lg n="7">
+                  <head>7</head>
+                  <l>Tell me, O thou, whom my Soul loves alone,</l>
+                  <l>Where thou doſt Feed, where thy Flocks reſt at noon;</l>
+                  <l>For why ſhould I thus turned be aſide,</l>
+                  <l>By th' flocks of thy companions to abide?</l>
+               </lg>
+               <lg n="8">
+                  <head>8</head>
+                  <l>If thou know'ſt not, O thou the faireſt Dame</l>
+                  <l>Among thy Sex, turn thou thy way amain,</l>
+                  <l>By th' Footſteps of the Flocks, and ſo abide,</l>
+                  <l>Feeding thy Kids, the ſhepherds Tents beſide.</l>
+               </lg>
+               <lg n="9">
+                  <head>9</head>
+                  <l>O thou my Love, I have compared thee,</l>
+                  <l>To Horſes that in <hi>Pharaoh's</hi> Chariots be.</l>
+               </lg>
+               <lg n="10">
+                  <pb n="5" facs="tcp:180118:3"/>
+                  <head>10</head>
+                  <l>Thy comely Cheeks like Jewels in a row,</l>
+                  <l>With Chains of Gold thy Neck's adorned too.</l>
+               </lg>
+               <lg n="11">
+                  <head>11</head>
+                  <l>To thee we'll Borders make of beaten Gold</l>
+                  <l>With ſtuds of Silver of the fineſt Mold.</l>
+               </lg>
+               <lg n="12">
+                  <head>12</head>
+                  <l>While that the King is ſitting at his Board</l>
+                  <l>My Spikenard doth a pleaſant Smell afford.</l>
+               </lg>
+               <lg n="13">
+                  <head>13</head>
+                  <l>A bundle of Myrrhe my well belov'd's to me.</l>
+                  <l>He all the Night betwixt my Breaſts ſhall be.</l>
+               </lg>
+               <lg n="14">
+                  <head>14</head>
+                  <l>And my Belov'd is as a Cluſter fair</l>
+                  <l>Of Camphire in <hi>Engedi's</hi> Vineyards rare.</l>
+               </lg>
+               <lg n="15">
+                  <head>15</head>
+                  <l>Behold thou'rt fair, behold thou'rt fair my Love,</l>
+                  <l>Thy eyes appear like to thoſe of a Dove.</l>
+               </lg>
+               <lg n="16">
+                  <head>16</head>
+                  <l>Behold thou'rt fair and comely to be ſeen:</l>
+                  <l>O thou my Love: our Bed is alſo green.</l>
+               </lg>
+               <lg n="17">
+                  <head>17</head>
+                  <l>Our Houſe it's Beams are of the Cedar-Tree,</l>
+                  <l>Our Rafters of the Fir compoſed be.</l>
+               </lg>
+            </div>
+            <div n="2" type="chapter">
+               <pb n="6" facs="tcp:180118:4"/>
+               <head>CHAP. II.</head>
+               <lg n="1">
+                  <head>Verſe 1.</head>
+                  <l>I am the Roſe of <hi>Sharon,</hi> and I am</l>
+                  <l>The Lillie of the Valleys; I'm the ſame.</l>
+               </lg>
+               <lg n="2">
+                  <head>2</head>
+                  <l>Ev'n as the Lillie is among the Thorn,</l>
+                  <l>So is my Love 'mong Daughters that are born.</l>
+               </lg>
+               <lg n="3">
+                  <head>3</head>
+                  <l>As th' Apple-Tree among Trees of the Wood</l>
+                  <l>So 'mong the Sons appeareth my Belov'd;</l>
+                  <l>I under's ſhade with great delight did reſt.</l>
+                  <l>His Fruit it was then pleaſant to my Taſt.</l>
+               </lg>
+               <lg n="4">
+                  <head>4</head>
+                  <l>Unto the banquet houſe he did me move,</l>
+                  <l>And over me he ſpread his banner love.</l>
+               </lg>
+               <lg n="5">
+                  <head>5</head>
+                  <l>With flaggons ſtay, with Apples comfort me;</l>
+                  <l>For I am ſick of Love exceedingly.</l>
+               </lg>
+               <lg n="6">
+                  <head>6</head>
+                  <l>Under my Head his left Hand he doth place,</l>
+                  <l>And his right Hand doth often me embrace.</l>
+               </lg>
+               <lg n="7">
+                  <head>7</head>
+                  <l>I charge you Daughters of <hi>Jeruſalem,</hi>
+                  </l>
+                  <l>By th' Roes and Hynds o'th' field, I ſay by them<g ref="char:punc">▪</g>
+                  </l>
+                  <l>
+                     <pb n="7" facs="tcp:180118:4"/>That for to ſtir, or 'wake my love, you ceaſe,</l>
+                  <l>Untill the time my welbeloved pleaſe.</l>
+               </lg>
+               <lg n="8">
+                  <head>8</head>
+                  <l>The Voice of my belov'd! lo! He comes leaping</l>
+                  <l>Upon the Mountains, on the Hills comes skip<g ref="char:EOLhyphen"/>ping.</l>
+               </lg>
+               <lg n="9">
+                  <head>9</head>
+                  <l>My Love is like a young Hart or a Roe:</l>
+                  <l>And he behind our Wall is ſtanding: lo,</l>
+                  <l>Out at the Windows he looks forth to view,</l>
+                  <l>And thro' the Latteſs He himſelf doth ſhew.</l>
+               </lg>
+               <lg n="10">
+                  <head>10</head>
+                  <l>My welbeloved ſpake to me; did ſay,</l>
+                  <l>Riſe up my love, my fair one, come away.</l>
+               </lg>
+               <lg n="11">
+                  <head>11</head>
+                  <l>For lo the Winter's paſt, the Rain is over,</l>
+                  <l>And gone away; beloved, do not hover.</l>
+               </lg>
+               <lg n="12">
+                  <head>12</head>
+                  <l>The Flowers upon the Earth appearing ſtand,</l>
+                  <l>The ſinging of the Birds is now at hand,</l>
+                  <l>The Turtle's Voice is heard within our land.</l>
+               </lg>
+               <lg n="13">
+                  <head>13</head>
+                  <l>From the figg-tree her green figgs ſprout &amp; ſwell'</l>
+                  <l>The Vine with tender Grapes gives a good Smell.</l>
+                  <l>
+                     <pb n="8" facs="tcp:180118:5"/>Ariſe, make haſt, my love, and come away,</l>
+                  <l>O my fair one, ariſe, and make no ſtay.</l>
+               </lg>
+               <lg n="14">
+                  <head>14</head>
+                  <l>My Dove! that in the in Clefts o'th'Rocks abid'ft;</l>
+                  <l>In ſecret places of the Stairs reſid'ſt,</l>
+                  <l>O let me ſee thy Face, and thy Voice hear,</l>
+                  <l>Thy Voice is ſweet, thy Countenance is fair.</l>
+               </lg>
+               <lg n="15">
+                  <head>15</head>
+                  <l>Our Vines have tender Grapes: now therefore, go,</l>
+                  <l>Take us the Foxes, little Foxes too,</l>
+                  <l>That hurt the fruitfull Vines, and ſpoil them ſo.</l>
+               </lg>
+               <lg n="16">
+                  <head>16</head>
+                  <l>My well belov'd is mine, and I am his;</l>
+                  <l>Among the Lillies fair his feeding is.</l>
+               </lg>
+               <lg n="17">
+                  <head>17</head>
+                  <l>Untill the day do break and ſhaddowes flie;</l>
+                  <l>O my beloved turn to me, and be</l>
+                  <l>Like to a young Hart, or like to a Roe</l>
+                  <l>Skipping on <hi>Bether</hi>'s mountains to and fro.</l>
+               </lg>
+            </div>
+            <div n="3" type="chapter">
+               <head>CHAP. III.</head>
+               <lg n="1">
+                  <head>Verſe 1.</head>
+                  <l>BY Night, on Bed, whom my Soul loves I ſought</l>
+                  <l>I ſought Him, but alas! I found Him not.</l>
+               </lg>
+               <lg n="2">
+                  <pb n="9" facs="tcp:180118:5"/>
+                  <head>2</head>
+                  <l>I will riſe now, and round the city go;</l>
+                  <l>And in the ſtreets, and broad ways to and fro',</l>
+                  <l>Whom my Soul loves I'le ſeek with my whole mind.</l>
+                  <l>I ſought him but no ways I could him find</l>
+               </lg>
+               <lg n="3">
+                  <head>3</head>
+                  <l>The Watchmen that did walk the City round,</l>
+                  <l>Although I found him not, yet me they found;</l>
+                  <l>To whom I ſaid; Ho watchmen! did you ſee</l>
+                  <l>Him whom my very Soul loves ferventlie?</l>
+               </lg>
+               <lg n="4">
+                  <head>4</head>
+                  <l>T'was but a little I from them was gone,</l>
+                  <l>When I found him my Soul was ſet upon;</l>
+                  <l>I held him, but I would not let him go,</l>
+                  <l>Till that I had conducted him into</l>
+                  <l>My Mothers Houſe, and to the very Room</l>
+                  <l>Of her that firſt conceav'd me in her Womb.</l>
+               </lg>
+               <lg n="5">
+                  <head>5</head>
+                  <l>I charge you, daughters of <hi>Jeruſalem,</hi>
+                  </l>
+                  <l>By th' Roes, and by the Hinds, I ſay by them,</l>
+                  <l>That for to ſtirr, or 'wake my Love you ceaſe,</l>
+                  <l>Untill the time my welbeloved pleaſe.</l>
+               </lg>
+               <lg n="6">
+                  <head>6</head>
+                  <l>Who's this that from the wilderneſs doth ſtirr</l>
+                  <l>Like ſmoaky Pillars, all perfum'd with Myrrh</l>
+                  <l>And Frankincenſe, with all the Powders rare</l>
+                  <l>That brought unto us by the Merchants are?</l>
+               </lg>
+               <lg n="7">
+                  <pb n="10" facs="tcp:180118:6"/>
+                  <head>7</head>
+                  <l>Behold! three ſcore of <hi>Iſr'els</hi> Valiant Ones</l>
+                  <l>Do guard the Bed which is King <hi>Solomons.</hi>
+                  </l>
+               </lg>
+               <lg n="8">
+                  <head>8</head>
+                  <l>They all hold Swords, in warr expert; for why?</l>
+                  <l>Each man a Sword hath girt upon his Thigh,</l>
+                  <l>Leſt dangers of the night ſhould terrifie.</l>
+               </lg>
+               <lg n="9">
+                  <head>9</head>
+                  <l>A Bed, or Chariot; King <hi>Solomon</hi>
+                  </l>
+                  <l>Made to Himſelf, o'th'Wood of <hi>Lebanon.</hi>
+                  </l>
+               </lg>
+               <lg n="10">
+                  <head>10</head>
+                  <l>Whereof the Pillars were of ſilver mold,</l>
+                  <l>The Bottom alſo it was made of Gold;</l>
+                  <l>The Cover Purple; the midſt pav'd with Love</l>
+                  <l>For th'Daughters of <hi>Jeruſalems</hi> Behove.</l>
+               </lg>
+               <lg n="11">
+                  <head>11</head>
+                  <l>Go, <hi>Zions</hi> Daughters, See King <hi>Solomon</hi>
+                  </l>
+                  <l>With's Crown, that Crown his Mother put upon</l>
+                  <l>His Head, that day he his Eſpouſals had;</l>
+                  <l>And in the day wherein his heart was Glad.</l>
+               </lg>
+            </div>
+            <div n="4" type="chapter">
+               <head>CHAP. IV.</head>
+               <lg n="1">
+                  <head>Verſe 1.</head>
+                  <l>BEhold, thou'rt fair, behold, thourt fair, my love,</l>
+                  <l>Within thy locks thou haſt eyes of a Dove;</l>
+                  <l>
+                     <pb n="11" facs="tcp:180118:6"/>And as a Flock of Goats that do appear</l>
+                  <l>From the Mount <hi>Gilead:</hi> So doth thy Hair.</l>
+               </lg>
+               <lg n="2">
+                  <head>2</head>
+                  <l>Thy Teeth are like unto a Flock of Sheep</l>
+                  <l>Ev'n ſhorn, and comeing from the waters deep,</l>
+                  <l>Each one whereof bears twins, and there is none</l>
+                  <l>Among them barren; not ſo much as one.</l>
+               </lg>
+               <lg n="3">
+                  <head>3</head>
+                  <l>Thy Lipps like to a Scarlet threed appear,</l>
+                  <l>Thy Speech is comely; pleaſant to mine Ear.</l>
+                  <l>Within thy Locks, thy Temples they are ſet</l>
+                  <l>Ev'n like unto a piece of <hi>Pomegranate.</hi>
+                  </l>
+               </lg>
+               <lg n="4">
+                  <head>4</head>
+                  <l>Thy Neck is like King <hi>David</hi>'s Tow'r, which He</l>
+                  <l>Built for an Armoury, whereon there be</l>
+                  <l>A Thouſand Bucklers hanging, fit for VVar;</l>
+                  <l>All ſhields of men that ſtrong and mighty are.</l>
+               </lg>
+               <lg n="5">
+                  <head>5</head>
+                  <l>Thy Breaſts like two Young twin Roes do appear,</l>
+                  <l>Both which among the Lillies feeding are.</l>
+               </lg>
+               <lg n="6">
+                  <head>6</head>
+                  <l>Till the day break &amp; ſhaddows flee; from hence</l>
+                  <l>I'l get me to the mounts of Myrrh, and thence,</l>
+                  <l>Will alſo go to th'Hill of <hi>Frankincenſe.</hi>
+                  </l>
+               </lg>
+               <lg n="7">
+                  <pb n="12" facs="tcp:180118:7"/>
+                  <head>7</head>
+                  <l>My love thour't fair and comely for to ſee,</l>
+                  <l>No Spot or Blemiſh is at all in thee.</l>
+               </lg>
+               <lg n="8">
+                  <head>8</head>
+                  <l>VVith me from <hi>Lebanon,</hi> my Spouſe came up,</l>
+                  <l>VVith me from <hi>Lebanon;</hi> look from the Top</l>
+                  <l>Of <hi>Shenir, Hermon; Amana</hi> alſo,</l>
+                  <l>The Lions Denns, and Le'pards Mountains too.</l>
+               </lg>
+               <lg n="9">
+                  <head>9</head>
+                  <l>Thou'ſt raviſhed my Heart within my Breaſt</l>
+                  <l>My Siſter, Spouſe; my heart thou raviſht haſt</l>
+                  <l>VVith one glance of thine eye, &amp; with one chain</l>
+                  <l>Encompaſsing thy Neck, thou didſt it gain.</l>
+               </lg>
+               <lg n="10">
+                  <head>10</head>
+                  <l>O thou my Siſter, Spouſe: How fair's thy love!</l>
+                  <l>I doe eſteem and value it above</l>
+                  <l>The choiceſt Wine; Yea and the fragrant Smell</l>
+                  <l>Thy Ointments Yield, all Spices do excell.</l>
+               </lg>
+               <lg n="11">
+                  <head>11</head>
+                  <l>As th'Hony-comb, O Spouſe, drops to the ground</l>
+                  <l>So are thy Lips. Honey<g ref="char:punc">▪</g> and Milk are found</l>
+                  <l>Beneath thy tongue; thy Garments give a Smell</l>
+                  <l>Which doth ev'n that of <hi>Lebanon</hi> excell.</l>
+               </lg>
+               <lg n="12">
+                  <head>12</head>
+                  <l>Unto a Garden, fenc'd about and barr'd,</l>
+                  <l>My Siſter, ſpouſe, may fitly be compar'd.</l>
+                  <l>
+                     <pb n="13" facs="tcp:180118:7"/>Like to a ſpring of Waters cloſelie ſhut;</l>
+                  <l>A Fountain whereupon a Seal is put.</l>
+               </lg>
+               <lg n="13">
+                  <head>13</head>
+                  <l>Thy Plants, an Orchard of Pomegranats are,</l>
+                  <l>With pleaſant Fruits, Camphire, with Spikenard rare.</l>
+               </lg>
+               <lg n="14">
+                  <head>14</head>
+                  <l>Spikenard and Saffron, Calamus alſo</l>
+                  <l>And Cinamom, with all the Trees that grow</l>
+                  <l>Of Frankincenſe, of Myrrhe and Aloes</l>
+                  <l>With all the Spices, and of them the choice.</l>
+               </lg>
+               <lg n="15">
+                  <head>15</head>
+                  <l>A well of Waters that do ever run:</l>
+                  <l>A Fount of Gardens; ſtreams from <hi>Lebanon.</hi>
+                  </l>
+               </lg>
+               <lg n="16">
+                  <head>16</head>
+                  <l>Awake O North Wind; South Wind come and blow</l>
+                  <l>Upon my Garden, make the Spices flow.</l>
+                  <l>Let my beloved to his Garden haſt,</l>
+                  <l>And eat his Fruits moſt pleaſant to his Taſt.</l>
+               </lg>
+            </div>
+            <div n="5" type="chapter">
+               <head>CHAP. V.</head>
+               <lg n="1">
+                  <head>Verſe 1.</head>
+                  <l>MY Siſter, Spouſe, I'm in my garden fair,</l>
+                  <l>My Myrrh, my Spice by me now gather'd are.</l>
+                  <l>
+                     <pb n="14" facs="tcp:180118:8"/>My Honey with my Honey-Comb, alſo</l>
+                  <l>I've ate; My Wine, with Milk I've drunken too;</l>
+                  <l>Eat, O Beloved! Drink, and ſatisfie</l>
+                  <l>Your ſelves, O Friends, Yea, drink abundantlie.</l>
+               </lg>
+               <lg n="2">
+                  <head>2</head>
+                  <l>I ſleep, but yet my heart's awake. It is</l>
+                  <l>The voice of my Belov'd that knocks; 'tis his,</l>
+                  <l>Thus ſaying: Open unto me, my Love,</l>
+                  <l>My undefi'ld, My Siſter, and my Dove,</l>
+                  <l>For with the dew my Head's alreadie fill'd</l>
+                  <l>And my Locks with the drops, by night diſtill'd.</l>
+               </lg>
+               <lg n="3">
+                  <head>3</head>
+                  <l>I have put of my Coat, how ſhall <hi>I</hi> then</l>
+                  <l>(Yea how ſhall I now) put it on agen?</l>
+                  <l>And having waſh'd my Feet moſt carefully,</l>
+                  <l>How ſhall I now defile them? How ſhall I?</l>
+               </lg>
+               <lg n="4">
+                  <head>4</head>
+                  <l>By the hole of the Door, his hands, my Love</l>
+                  <l>Put in; my Bowels then for him did move.</l>
+               </lg>
+               <lg n="5">
+                  <head>5</head>
+                  <l>To my Belov'd I roſe, the Door to ope',</l>
+                  <l>And then with Myrrh my very Hands did drop,</l>
+                  <l>My Fingers too ſweet ſmelling Myrrh diſtill'd,</l>
+                  <l>Which all the handles of the Lock had fill'd.</l>
+               </lg>
+               <lg n="6">
+                  <pb n="15" facs="tcp:180118:8"/>
+                  <head>6</head>
+                  <l>I opened to my Love, but h'had withdraw'n</l>
+                  <l>Himſelf away; and He away was gone.</l>
+                  <l>My Soul fail'd when He did upon me call;</l>
+                  <l>
+                     <hi>I</hi> ſought Him, but I found Him not at all.</l>
+                  <l>When I Him ſought, He did no Notice take,</l>
+                  <l>And when I call'd, He did no Anſwer make.</l>
+               </lg>
+               <lg n="7">
+                  <head>7</head>
+                  <l>The Watch-men that about the City go,</l>
+                  <l>Found me, as I was wandring to and fro'</l>
+                  <l>They ſmote &amp; wounded me, they that did watch</l>
+                  <l>And keep the walls, my vail did from me ſnatch.</l>
+               </lg>
+               <lg n="8">
+                  <head>8</head>
+                  <l>O Daughters of <hi>Jeruſalem,</hi> I do,</l>
+                  <l>Adjure You all, yea every one of You,</l>
+                  <l>To tell my Love, when You him find, that I</l>
+                  <l>Am ſick, yea ſick of Love exceedingly.</l>
+               </lg>
+               <lg n="9">
+                  <head>9</head>
+                  <l>What's thy Beloved more than others are?</l>
+                  <l>O thou the faireſt of all Women fair,</l>
+                  <l>What's thy beloved more than they? that thus</l>
+                  <l>Concerning him, thou giv'ſt this Charge to us.</l>
+               </lg>
+               <lg n="10">
+                  <head>10</head>
+                  <l>My welbeloved's white and ruddy, He</l>
+                  <l>The Chief among tenthouſands is to me.</l>
+               </lg>
+               <lg n="11">
+                  <pb n="16" facs="tcp:180118:9"/>
+                  <head>11</head>
+                  <l>His Head is as the pure and fineſt Gold,</l>
+                  <l>His Locks are buſhie, and in Curls do fold,</l>
+                  <l>And black as any Raven to behold.</l>
+               </lg>
+               <lg n="12">
+                  <head>12</head>
+                  <l>His Eyes, like Doves which by the Rivers ſit,</l>
+                  <l>Are waſht with Milk, and alſo ſet moſt fit.</l>
+               </lg>
+               <lg n="13">
+                  <head>13</head>
+                  <l>His Cheeks like to a Bed of Spices are,</l>
+                  <l>And as ſweet fragrant Flowrs they do appear.</l>
+                  <l>His Lips like to the Lillies fair, that drop</l>
+                  <l>Sweet ſmelling Myrrh from off their very Top.</l>
+               </lg>
+               <lg n="14">
+                  <head>14</head>
+                  <l>As Gold Rings that with <hi>Beryls</hi> garnſht are,</l>
+                  <l>So do his Hands unto my ſight appear.</l>
+                  <l>His Belly's as bright <hi>Ivory,</hi> array'd</l>
+                  <l>With Saphires, and with them all overlay'd.</l>
+               </lg>
+               <lg n="15">
+                  <head>15</head>
+                  <l>His Leggs, as Marble pillars I behold,</l>
+                  <l>Set upon Sockets of the fineſt Gold;</l>
+                  <l>His Countenance is like to Lebanon,</l>
+                  <l>And ſtately Cedars growing thereupon.</l>
+               </lg>
+               <lg n="16">
+                  <head>16</head>
+                  <l>His Mouth it is moſt ſweet. Moreover, He</l>
+                  <l>Is altogether Lovely unto me.</l>
+                  <l>
+                     <pb n="17" facs="tcp:180118:9"/>O Daughters of <hi>Jeruſalem!</hi> This, This</l>
+                  <l>My Friend; yea and my well Beloved is.</l>
+               </lg>
+            </div>
+            <div n="6" type="chapter">
+               <head>CHAP. VI.</head>
+               <lg n="1">
+                  <head>Verſe 1.</head>
+                  <l>Where's thy beloved gone? O thou moſt fair</l>
+                  <l>Among all Women that the faireſt are?</l>
+                  <l>O whither is He turnd aſide? that we</l>
+                  <l>May go along and ſeek thy Love with thee.</l>
+               </lg>
+               <lg n="2">
+                  <head>2</head>
+                  <l>My well beloved's to his Garden gon,</l>
+                  <l>To feed i'th' Gardens; and to reſt upon</l>
+                  <l>The Beds of Spices; and to pluck the fair</l>
+                  <l>And pleaſant Lilies that are growing there.</l>
+               </lg>
+               <lg n="3">
+                  <head>3</head>
+                  <l>My wel beloved's mine, and I am his</l>
+                  <l>Among the Lilies fair he feeding is.</l>
+               </lg>
+               <lg n="4">
+                  <head>4</head>
+                  <l>O thou my Love thou art exceeding fair;</l>
+                  <l>For beauty, I'le to <hi>Tirzah</hi> thee compare,</l>
+                  <l>
+                     <hi>Joruſ'lem</hi> like, with comelineſs array'd</l>
+                  <l>And terrible as Banners when diſplay'd.</l>
+               </lg>
+               <lg n="5">
+                  <head>5</head>
+                  <l>Thine Eyes from me O do thou tuan away,</l>
+                  <l>Me vanquiſhed and overcome have they;</l>
+                  <l>
+                     <pb n="18" facs="tcp:180118:10"/>And as a Flock of Goats that doth appear</l>
+                  <l>
+                     <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rom the Mount Gilead; ſo doth thy Hair.</l>
+               </lg>
+               <lg n="6">
+                  <head>6</head>
+                  <l>Thy Teeth are like unto a Flock of Sheep,</l>
+                  <l>Come up from waſhing in the waters deep,</l>
+                  <l>Each one where of bears twins; and there is none</l>
+                  <l>Among them barren; not ſo much as one.</l>
+               </lg>
+               <lg n="7">
+                  <head>7</head>
+                  <l>Within thy Locks, thy Temples thy are ſet;</l>
+                  <l>Ev'n like unto a piece of Pomegranate.</l>
+               </lg>
+               <lg n="8">
+                  <head>8</head>
+                  <l>There's threeſcore Queens, and Concubines four<g ref="char:EOLhyphen"/>ſcore,</l>
+                  <l>Of Virgins an innumerable Store.</l>
+               </lg>
+               <lg n="9">
+                  <head>9</head>
+                  <l>My Dove, my Undefil'd's but one; her Mother,</l>
+                  <l>That brought her forth, beſides her, had no other;</l>
+                  <l>The choice one too of her that did her bear;</l>
+                  <l>The Virgins ſaw her, and they bleſſed her,</l>
+                  <l>Yea and the Queens her maginfi'd and Prais'd</l>
+                  <l>The Concubines her Glory alſo rais'd.</l>
+               </lg>
+               <lg n="10">
+                  <head>10</head>
+                  <l>Who's ſhe that looketh forth like to the Morn,</l>
+                  <l>Fair as the Moon that doth the night adorne,</l>
+                  <l>Ev'n as the Sun when it is ſhining clear,</l>
+                  <l>And terrible as banners doth appear?</l>
+               </lg>
+               <lg n="11">
+                  <pb n="19" facs="tcp:180118:10"/>
+                  <head>11</head>
+                  <l>I went to the Nut Garden, there to view</l>
+                  <l>The fruits that in the pleaſant valley grew;</l>
+                  <l>To ſee if that the Vine had flouriſhed;</l>
+                  <l>Or Pomegranates their Buds abroad had ſhed.</l>
+               </lg>
+               <lg n="12">
+                  <head>12</head>
+                  <l>Ere that I was aware, my Soul made me</l>
+                  <l>lnth' Chariots of <hi>Amminadib,</hi> to be,</l>
+               </lg>
+               <lg n="13">
+                  <head>13</head>
+                  <l>Return, return, O <hi>Shulamite,</hi> come back,</l>
+                  <l>Returne, that we may notice of thee take.</l>
+                  <l>What is it in the <hi>Shulamite,</hi> Ye'll ſee?</l>
+                  <l>As 'twere, of Armies two, the Companie.</l>
+               </lg>
+            </div>
+            <div n="7" type="chapter">
+               <head>CHAP. VII.</head>
+               <lg n="1">
+                  <head>Verſe 1.</head>
+                  <l>Thy Feet with ſhooes, how beautifull they are</l>
+                  <l>
+                     <hi>O</hi> Princes Daughter! Yea and l'le compare</l>
+                  <l>The Joints, that motion to thy Thighs impart</l>
+                  <l>To Jewells, wrought by cunning Workmans Art.</l>
+               </lg>
+               <lg n="2">
+                  <head>2</head>
+                  <l>Thy Navel's like a Goblet that is round,</l>
+                  <l>And with much Precious Liquor doth abound:</l>
+                  <l>Thy Belly is like to an Heap of Wheat</l>
+                  <l>That's round about with faireſt Liliesſet.</l>
+               </lg>
+               <lg n="3">
+                  <pb n="20" facs="tcp:180118:11"/>
+                  <head>3</head>
+                  <l>And thy two Breaſts may be compar'd unto</l>
+                  <l>Two Young Roes of the Field, and Twins alſo.</l>
+               </lg>
+               <lg n="4">
+                  <head>4</head>
+                  <l>Thy Neck is as a Towr of Ivory.</l>
+                  <l>Thine Eyes like Fiſh-Pools that in <hi>Hesbonly,</hi>
+                  </l>
+                  <l>Hard by <hi>Bathrabbim</hi> gate. Thy Noſe alone</l>
+                  <l>May be compar'd to th'Tow'r of <hi>Lebanon,</hi>
+                  </l>
+                  <l>
+                     <hi>Damaſcus</hi>-ward, as looking thereupon.</l>
+               </lg>
+               <lg n="5">
+                  <head>5</head>
+                  <l>Thy Head is like unto Mount-Carmel fair.</l>
+                  <l>And like the faireſt Purple is thy Hair.</l>
+                  <l>The King is held in's Galleri'es, walking there.</l>
+               </lg>
+               <lg n="6">
+                  <head>6</head>
+                  <l>How fair! how pleaſant! and how far above</l>
+                  <l>All others, for Delights! art thou my Love!</l>
+               </lg>
+               <lg n="7">
+                  <head>7</head>
+                  <l>Thy Stature, to a Palme tree's like, for ſhape;</l>
+                  <l>Thy Breaſts are like to Cluſters of the grape.</l>
+               </lg>
+               <lg n="8">
+                  <head>8</head>
+                  <l>I will, ſaid I, up to the Palme tree go,</l>
+                  <l>And of it's Boughs I will take hold alſo:</l>
+                  <l>Thy Breaſts ſhall be as Cluſters of the Vine;</l>
+                  <l>And the Smell of thy Noſe, like Apples fine.</l>
+               </lg>
+               <lg n="9">
+                  <head>9</head>
+                  <l>Thy Palat's like choiſe Vine, which for the ſake</l>
+                  <l>Of my Belov'd, a ſweet deſcent doth make,</l>
+                  <l>Cauſing the Lipps of thoſe that ſteep, to ſpeake.</l>
+               </lg>
+               <lg n="10">
+                  <head>10</head>
+                  <l>I am my well Beloved's; and I ſee</l>
+                  <l>
+                     <pb n="21" facs="tcp:180118:11"/>That his Deſire is always towards me.</l>
+               </lg>
+               <lg n="11">
+                  <head>11</head>
+                  <l>Come my Beloved, to the Fields let's go,</l>
+                  <l>And to the Villages; Let's lodge there too.</l>
+               </lg>
+               <lg n="12">
+                  <head>12</head>
+                  <l>Come, let us early to the Vineyeards get,</l>
+                  <l>Let's ſee if that the Vine have flouriſh'd yet,</l>
+                  <l>Whither the tender Grape doth yet appear,</l>
+                  <l>Or if the Pomegranats yet budded are.</l>
+               </lg>
+               <lg n="13">
+                  <head>13</head>
+                  <l>The Mandrakes do a pleaſant Smell afford;</l>
+                  <l>And at our Gates all Pleaſant fruits are ſtor'd,</l>
+                  <l>Both New and old, which I've laid up for thee</l>
+                  <l>O thou who art Beloved unto me.</l>
+               </lg>
+            </div>
+            <div n="8" type="chapter">
+               <head>CHAP. VIII.</head>
+               <lg n="1">
+                  <head>Verſe 1.</head>
+                  <l>O that thou wert unto me, as my Brother</l>
+                  <l>That ſuck'd the very br<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>aſt of my dear Mo<g ref="char:EOLhyphen"/>ther</l>
+                  <l>I finding thee without, would kiſs thee too</l>
+                  <l>Nor ſhould I be deſpiſed ſo to do;</l>
+               </lg>
+               <lg n="2">
+                  <head>2</head>
+                  <l>Unto my Mothers Houſe I'de thee conduct</l>
+                  <l>And bring thee thither: ſhe would me Inſtruct</l>
+                  <l>I'de cauſe thee for to drink of ſpiced VVine,</l>
+                  <l>And of the Juice of Pomgranates moſt fine.</l>
+               </lg>
+               <lg n="3">
+                  <head>3</head>
+                  <l>Under my Head, his left Hand he ſhould place</l>
+                  <l>And with his Right Hand he ſhould me embrace.</l>
+               </lg>
+               <lg n="4">
+                  <pb n="22" facs="tcp:180118:12"/>
+                  <head>4</head>
+                  <l>O Daughters of <hi>Jeruſalem</hi> I do</l>
+                  <l>Adjure You all, and ev'ry one of you</l>
+                  <l>That for to ſtir, or'wake my Love you ceaſe</l>
+                  <l>Untill the time my well beloved pleaſe.</l>
+               </lg>
+               <lg n="5">
+                  <head>5</head>
+                  <l>Who's this that cometh from the VVilderneſs,</l>
+                  <l>And leaning on her well beloved is?</l>
+                  <l>There I thee raiſed under th'Apple Tree</l>
+                  <l>Ther'twas thy Mother brought thee forth Yea ſhe</l>
+                  <l>That did the bear; 'twas there I raiſed thee.</l>
+               </lg>
+               <lg n="6">
+                  <head>6</head>
+                  <l>Set me, like as a Seal upon thy Heart,</l>
+                  <l>And as a Seal upon thine Arm, inſert.</l>
+                  <l>For Love is ſtrong as Death; and Jealouſie,</l>
+                  <l>Is like into the Grave for Crueltie,</l>
+                  <l>It's Coals are Coales of Fire and from the ſame</l>
+                  <l>Proceeds a mighty and moſt Veh'ment flame.</l>
+               </lg>
+               <lg n="7">
+                  <head>7</head>
+                  <l>Love cannot be by many waters quench't,</l>
+                  <l>Neither can it by any floods be drench't</l>
+                  <l>Yea as for Love ſhould any man beſtow</l>
+                  <l>The Subſtance of his Houſe, it were too low</l>
+                  <l>A value to be put upon it ſo.</l>
+               </lg>
+               <lg n="8">
+                  <head>8</head>
+                  <l>We have a little Siſter; but, alace!</l>
+                  <l>She hath no breaſts; when er'e it comes to paſs</l>
+                  <l>That ſhe be ſpoken for, what ſhall we doe</l>
+                  <l>For her that day, ſhe being ſtated ſo.</l>
+               </lg>
+               <lg n="9">
+                  <pb n="23" facs="tcp:180118:12"/>
+                  <head>9</head>
+                  <l>If that ſhe be a wall, then on the ſame</l>
+                  <l>VVe will a Palace of pure Silver frame.</l>
+                  <l>And if ſhe prove to be a doore, then we</l>
+                  <l>Will her encloſe with Boards of Cedar Tree.</l>
+               </lg>
+               <lg n="10">
+                  <head>10</head>
+                  <l>I am a wall, for building on moſt fit,</l>
+                  <l>Yea and my Breaſts are like the Tow'rs of it.</l>
+                  <l>Then was I ev'n as one that he did prize,</l>
+                  <l>Or one that had found favour in his Eyes,</l>
+               </lg>
+               <lg n="11">
+                  <head>11</head>
+                  <l>At <hi>Baal-hamon, Solomon</hi> he had</l>
+                  <l>A Vine-Yard which with fruitfull Vines was clad</l>
+                  <l>This Vine Yard he to Keepers did out let</l>
+                  <l>Each one of them were for the Fruit of it,</l>
+                  <l>Bound and obliged alſo for to bring</l>
+                  <l>A thouſand Silver pieces to the King,</l>
+               </lg>
+               <lg n="12">
+                  <head>12</head>
+                  <l>My Vine-Yard which is mine, before me is;</l>
+                  <l>And thou (O <hi>Solomon</hi>) muſt have for this</l>
+                  <l>A thouſand pieces, Yea and theſe that doe</l>
+                  <l>Attend it's fruit, muſt have two hundred too.</l>
+               </lg>
+               <lg n="13">
+                  <head>13</head>
+                  <l>O thou that dwelleſt in the Gardens fair</l>
+                  <l>Lo, the Companions attending are</l>
+                  <l>Unto thy Voice; Cauſe me the ſame to hear,</l>
+               </lg>
+               <lg n="14">
+                  <head>14</head>
+                  <l>Make haſt, beloved and be like unto</l>
+                  <l>A Young Hart, or be like unto a Roe</l>
+                  <l>On th'Mounts of Spices skipping, to and fro.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:180118:13"/>
+         </div>
+      </body>
+   </text>
+</TEI>
